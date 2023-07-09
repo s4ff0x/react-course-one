@@ -1,5 +1,5 @@
 import { css, styled, Typography } from "@mui/material";
-import { TextProps } from "./text.tsx";
+import { TextProps } from "./types.ts";
 
 export const TextStyled = styled(Typography, {
   shouldForwardProp: (prop) => prop !== "bold",
