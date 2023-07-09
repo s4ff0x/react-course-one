@@ -1,9 +1,6 @@
-import { TypographyProps } from "@mui/material";
 import { TextStyled } from "./text.styles.ts";
+import { TextProps } from "./types.ts";
 
-export type TextProps = TypographyProps & {
-  bold: boolean;
-};
 export const Text = (props: TextProps) => {
   return <TextStyled {...props} />;
 };
