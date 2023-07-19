@@ -6,6 +6,6 @@ export const PageStyled = styled("div")<PageProps>`
   height: 100vh;
   background: ${({ theme: { palette } }) =>
     palette.mode === "dark"
-      ? palette.primary.gradient
+      ? palette.background.pageGradient
       : palette.background.default};
 `;

@@ -1,6 +1,6 @@
-import { PageStyled } from "@/shared/components/page/page.styles.ts";
 import { PageProps } from "./types.ts";
+import { PageStyled } from "./page.styles.ts";
 
-export const Page = ({ children }: PageProps) => {
-  return <PageStyled children={children} />;
+export const Page = ({ children, className }: PageProps) => {
+  return <PageStyled children={children} className={className} />;
 };

@@ -8,11 +8,9 @@ export const ColorModeContext = createContext({
 });
 
 declare module "@mui/material/styles" {
-  interface PaletteColor {
-    gradient?: string;
-  }
-  interface SimplePaletteColorOptions {
-    gradient?: string;
+  interface TypeBackground {
+    pageGradient?: string;
+    buttonGradient?: string;
   }
 }
 
